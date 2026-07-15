@@ -1,55 +1,57 @@
-# DMX Lighting Control
+# Go DMX - DMX512 Lighting Control Library for Golang
 
-## What is this?
+A **DMX512 library for Go (Golang)** focused on controlling DMX interfaces and lighting fixtures.
 
-This is a library for managing DMX ports and controlling lighting fixtures through the DMX protocol.
+This project provides a foundation for building **lighting controllers**, **show control software**, **automation systems**, or any application that needs to communicate with **DMX512-compatible devices**.
 
-The project started as a continuation of an older DMX library that I found years ago and that appeared to have been abandoned. I built on top of it, made several improvements, fixed some issues, and started developing a more advanced lighting control system.
+## Features
 
-Eventually the project was put on hold, but I decided to publish it so anyone can use it, learn from it, or continue its development.
-
----
+- DMX512 communication from Go.
+- DMX port management.
+- Basic lighting fixture control.
+- Extensible architecture for fixture abstractions.
+- Improved implementation based on an older abandoned DMX library.
+- Open source and easy to modify.
 
 ## Project Status
 
-**Status:** Discontinued (for now).
+> **Status:** Archived / Maintenance only.
+
+The project is no longer under active development, but the core library is functional.
 
 Current state:
 
-- ✅ The core DMX port management library is functional.
-- ✅ Basic DMX lighting control works.
-- ✅ Several improvements were made to the original port management implementation.
-- 🚧 The *chase* recording and playback system was started but never completed.
-- 🚧 A desktop application was also started but remains unfinished.
+- ✅ DMX port communication works.
+- ✅ Fixture control API is usable.
+- ✅ Core DMX functions have been improved.
+- 🚧 Chase recording/playback system was started but never completed.
+- 🚧 An experimental desktop controller is included but unfinished.
 
----
+## Why this project?
 
-## Who can use it?
+Originally, this repository was created as a continuation of an abandoned Go DMX library that I found years ago.
 
-Anyone.
+Instead of letting the work disappear, I decided to improve it, expand its capabilities, and eventually release the source code so others can benefit from it.
 
-The source code is available for anyone who wants to use it as a foundation for their own projects, as a reference implementation, or as a starting point for further development.
+## Who is it for?
 
----
+This library may be useful if you're building:
 
-## Will I continue working on it?
+- DMX lighting controllers
+- Theater lighting software
+- Stage automation
+- Show control systems
+- Home automation using DMX
+- Interactive installations
+- Custom lighting fixtures
+- Embedded Go applications that output DMX
 
-Maybe.
+## Production Use
 
-If I ever decide to resume development, I will most likely focus on the library itself rather than the unfinished desktop application.
+The library is suitable if you simply need to send DMX data to compatible devices.
 
----
-
-## Is it production-ready?
-
-That depends on your use case.
-
-If your goal is simply to send DMX data to compatible devices, the library should work well.
-
-However, if you need a complete lighting control system with advanced features such as scenes, chases, effects, or automation, you should review the code and perform the necessary maintenance before using it in a production environment.
-
----
+For advanced lighting features (scenes, chases, effects, cue lists, automation, etc.), you should expect to extend or maintain the existing code.
 
 ## Contributions
 
-Although the project is currently discontinued, contributions, bug fixes, and improvements are always welcome.
+Although the project is archived, pull requests, bug fixes, and improvements are welcome.
