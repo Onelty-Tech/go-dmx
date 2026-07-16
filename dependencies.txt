@@ -1,0 +1,11 @@
+
+
+
+Dependencias:
+
+
+## pkg-config
+    - libusb.pc in the "PKG_CONFIG_PATH"
+
+## uDMX512 Driver
+
